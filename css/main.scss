@@ -3,6 +3,20 @@ $text-color: #CEC3FF;
 $dark-color: #67617F;
 $hover-color: #8F76FF;
 
+@mixin background-size($size) {
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin parallax-background($file) {
+  background: url($file) no-repeat center center fixed;
+  @include background-size(cover);
+}
+
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -101,13 +115,25 @@ html, body {
 
 /* Main */
 .main {
-  background: url(https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450);
-  background-size: cover;
+  
+  width: 100%;
+  /*
   height: 500px;
-  background-color: none; }
+  background: url("../img/tech5.jpeg");
+  background-size: cover;
+  */
+  background-color: none;
+  height: 75vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  @include parallax-background("../img/tech5.jpeg");
+  }
 
 .main .container {
   padding-top: 125px; }
+
 
 .main h1 {
   float: right;
@@ -149,6 +175,68 @@ html, body {
   padding-bottom: 30px;
   padding-right: 10px;
   padding-left: 10px; }
+
+/* Latest */
+
+#rafael {
+	width: 100%;
+  height: 75vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+   @include parallax-background("../img/tech2.jpeg"); 
+}
+
+.latest .container {
+  padding-top: 125px;
+  
+}
+
+#juan {
+	text-align: center;
+}
+
+.latest h1 {
+  color: #ffffff;
+  font-size: 32px;
+
+}
+
+
+#date {
+	color: #ffffff;
+	font-size: 24px;
+}
+
+.latest p {
+  color: #ffffff;
+  font-size: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+#miguel {
+	text-align: center;
+}
+
+.latest .btn {
+	font-size:16px;
+	border-radius:0px;
+	margin: 20px auto 60px;
+	padding: 10px 20px;
+	color: #ffffff;
+	width: 200px;
+	border: 1px solid #30627E;
+	text-transform: uppercase;
+	background-color: $header-color;
+}
+
+.latest .btn:hover {
+	color: #ffffff;
+	background-color: #8F76FF;
+}
 
 /* Footer */
 .footer {
@@ -207,17 +295,56 @@ html, body {
   padding-top: 10px;
   padding-bottom: 15px; }
 
+
+
+/*About and Resources and Search*/
+
+.main2 {
+	background-color: $text-color;
+}
+
+.main2 h2 {
+	color: $header-color;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.main2 p {
+	color: $header-color;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+#jzphoto {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+#leftphoto {
+	padding-top: 75px;
+}
+
+
+
+#techy {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+
 /*Blog*/
 /*main1*/
 /*supporting1*/
-/*Resources*/
-/*main2*/
-/*supporting2*/
-/*About Me*/
-/*main3*/
-/*supporting3*/
+
+
 /*Search Page*/
 /*main4*/
 /*supporting4*/
+
 /*# sourceMappingURL=main.css.map */
 
