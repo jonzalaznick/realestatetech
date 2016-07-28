@@ -27,7 +27,7 @@ html, body {
   background-color: $header-color;
   
   .container {
-  padding: 15px 0px 15px 0px;
+  padding: 1em 0 1em 0;
   }
 }
 
@@ -35,14 +35,14 @@ html, body {
 #logo h1 {
   text-align: center;
   color: $text-color;
-  font-size: 44px;
-  padding-top: 15px; }
+  font-size: 3em;
+  padding-top: .25em; }
 
 #logo a:hover {
   text-decoration: none; }
 
 #menu {
-  padding-top: 15px;
+  padding-top: 1em;
   h2 {
   text-align: center;
   color: $text-color;
@@ -51,56 +51,56 @@ html, body {
 
 .search-form input {
   background: transparent;
-  border: 0px;
-  border-bottom: 1px solid $dark-color;
+  border: 0em;
+  border-bottom: .1em solid $dark-color;
   color: #fff;
-  height: 30px;
-  width: 200px; }
+  height: 2.5em;
+  width: 16em; }
 
 .search-form input:hover, .search-form input:focus {
-  border-bottom: 1px solid $hover-color;
-  outline: 0px; }
+  border-bottom: .1em solid $hover-color;
+  outline: 0em; }
 
 .search-btn {
   background: transparent;
-  border: 0px;
-  border-bottom: 1px solid $dark-color;
+  border: 0em;
+  border-bottom: .1em solid $dark-color;
   color: $text-color;
-  height: 30px;
-  margin: 0 0 0 10px;
-  padding: 0 10px; }
+  height: 2.5em;
+  margin: 0 0 0 1em;
+  padding: 0 1em; }
 
 #search {
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin: 25px 0 0 0;
-  padding-right: 50px; }
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 2em 0 0 0;
+  padding-right: 4em; }
 
 #menu .dropdown {
   position: relative;
   list-style: none;
   text-align: center;
-  padding-bottom: 30px; }
+  padding-bottom: 2.5em; }
 
 #menu .dropdown-menu {
   position: absolute;
-  top: 35px;
+  top: 3em;
   border-radius: 0;
   text-align: center;
   background-color: $dark-color;
   left: 50%;
   transform: translateX(-50%);
-  width: 200px;
+  width: 16em;
   
   li {
   display: block;
   margin: 0;
-  padding: 3px 10px;
+  padding: .25em 1em;
   
   	a {
   		color: $text-color;
-  		font-size: 18px; 
+  		font-size: 1.5em; 
   	}
   
   	a:hover {
@@ -123,7 +123,7 @@ html, body {
   background-size: cover;
   */
   background-color: none;
-  height: 580px;
+  height: 48em;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
@@ -132,18 +132,18 @@ html, body {
   }
 
 .main .container {
-  padding-top: 125px; }
+  padding-top: 10em; }
 
 
 .main h1 {
   float: right;
   color: #ffffff;
-  font-size: 60px; }
+  font-size: 5em; }
 
 .main p {
   color: #ffffff;
   float: right;
-  font-size: 36px; }
+  font-size: 3em; }
 
 .main span {
   color: #ffffff; }
@@ -151,36 +151,36 @@ html, body {
 /* Supporting */
 .supporting {
   background-color: $text-color;
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 2.5em;
+  padding-bottom: 2.5em; }
 
 .supporting h2 {
   text-align: center;
   color: $header-color;
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
 
 .supporting a:hover {
   text-decoration: none; }
 
 .bobby {
   display: block;
-  height: 250px;
+  height: 20em;
   text-align: center;
   margin: auto; }
 
 .supporting p {
   color: $header-color;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 10px;
-  padding-left: 10px; }
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  padding-right: 1em;
+  padding-left: 1em; }
 
 /* Latest */
 
 #rafael {
 	width: 100%;
-  height: 580px;
+  height: 48em;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
@@ -189,7 +189,7 @@ html, body {
 }
 
 .latest .container {
-  padding-top: 125px;
+  padding-top: 10em;
   
 }
 
@@ -199,21 +199,21 @@ html, body {
 
 .latest h1 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2.2em;
 
 }
 
 
 #date {
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 1.8em;
 }
 
 .latest p {
   color: #ffffff;
-  font-size: 18px;
-  padding-right: 50px;
-  padding-left: 50px;
+  font-size: 1.3em;
+  padding-right: 3em;
+  padding-left: 3em;
 
 }
 
@@ -222,13 +222,13 @@ html, body {
 }
 
 .latest .btn {
-	font-size:16px;
-	border-radius:0px;
-	margin: 20px auto 60px;
-	padding: 10px 20px;
+	font-size: 1.25em;
+	border-radius: 0em;
+	margin: 1.6em auto 5em;
+	padding: .5em .5em;
 	color: #ffffff;
-	width: 200px;
-	border: 1px solid #30627E;
+	width: 11em;
+	border: .08em solid #30627E;
 	text-transform: uppercase;
 	background-color: $header-color;
 }
@@ -241,24 +241,23 @@ html, body {
 /* Footer */
 .footer {
   background-color: $header-color;
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 2.5em;
+  padding-bottom: 2.5em; }
 
 #frank ul {
   float: left;
-  font-size: 18px;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 #frank li {
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-left: 5px;
+  padding-right: .05em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: .05em;
   text-align: center;
   display: inline-block;
-  font-size: 14px;
+  font-size: 1.0em;
   color: $text-color; }
 
 #frank ul li a {
@@ -284,16 +283,16 @@ html, body {
   text-align: center; }
 
 #icon img {
-  height: 50px;
-  padding-right: 15px;
-  padding-left: 15px;
+  height: 4em;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
   position: relative; }
 
 .footer h4 {
   text-align: center;
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 15px; }
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 
 
@@ -306,31 +305,33 @@ html, body {
 .main2 h2 {
 	color: $header-color;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 15px;
+	padding-top: 1.5em;
+	padding-bottom: 1.0em;
 }
 
 .main2 p {
 	color: $header-color;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	padding-top: 1.25em;
+	padding-bottom: 2.5em;
 }
 
 #jzphoto {
 	text-align: center;
 	display: block;
 	margin: auto;
+	height: 27em;
+	width: 27em;
 }
 
 #leftphoto {
-	padding-top: 75px;
+	padding-top: 4em;
 }
 
 
 
 #techy {
 	width: 100%;
-	height: 500px;
+	height: 40em;
 	text-align: center;
 	margin: auto;
 	display: block;
