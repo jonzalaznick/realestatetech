@@ -86,7 +86,7 @@ html, body {
   background-size: cover;
   */
   background-color: none;
-  height: 75vh;
+  height: 580px;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
@@ -144,7 +144,7 @@ html, body {
 /* Latest */
 #rafael {
   width: 100%;
-  height: 75vh;
+  height: 580px;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
