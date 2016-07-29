@@ -179,10 +179,12 @@ html, body {
 
 .supporting p {
   color: $header-color;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   padding-right: 1em;
-  padding-left: 1em; }
+  padding-left: 1em;
+  font-size: 1.25em;
+  }
 
 /* Latest */
 
@@ -323,19 +325,18 @@ html, body {
 	color: $header-color;
 	padding-top: 1.25em;
 	padding-bottom: 2.5em;
+	font-size: 1.25em;
 }
 
 #jzphoto {
 	text-align: center;
 	display: block;
 	margin: auto;
-	height: 27em;
-	width: 27em;
+	height: 30em;
+	width: 30em;
+	margin-top: 4em;
 }
 
-#leftphoto {
-	padding-top: 4em;
-}
 
 
 
@@ -363,6 +364,7 @@ html, body {
 
 .ricky {
 	width: 100%;
+	height: 75vh;
 }
 
 .supporting-1 {
@@ -370,28 +372,60 @@ html, body {
 	
 	p {
 		padding: 1em 0 1em 0;
+		font-size: 1.25em;
 	}
 
 }
 
 .blog-post {
-	margin-right: 20em;
+	margin-right: 15em;
 	overflow: hidden;
 	padding: 1em 0 1em 0;
+	
+
 }
 
-#right-sidebar {
+.sidebar {
 	position: fixed;
 	text-align: right;
-	margin-top: 2em;
+	margin-top: 3em;
     height: 30em;
     width: 10em;
     float: right;
     margin-left: 66%;
+    z-index:1;
+    
     ul {
     	list-style: none;
+    	padding: 1em 0 1em 0;
+    	
+    	li a {
+    	text-decoration: none;
+    	color: $header-color;
+    	padding: 1em 0 1em 0;
+    	}
+    	li a:hover {
+    	text-decoration: none;
+    	color: $header-color;
+    	padding: 1em 0 1em 0;
+    	}
+    	li span {
+    	padding-top: 1em;
+    	
+    	}
+    	li p {
+    	padding-bottom: 1em;
+    	}
+    	
     }
+    
 }
+
+h3 {
+    color: $header-color;
+}
+
+
 
 
 /*Search Page*/
