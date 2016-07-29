@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #CEC3FF; }
 
 /* Header */
 .header {
@@ -48,7 +49,7 @@ html, body {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
   padding-right: 4em; }
 
 #menu .dropdown {
@@ -212,7 +213,7 @@ html, body {
   padding-left: 0em;
   text-align: center;
   display: inline-block;
-  font-size: 1em;
+  font-size: .8em;
   color: #CEC3FF; }
 
 #frank ul li a {
@@ -235,7 +236,7 @@ html, body {
   color: #8F76FF; }
 
 #icon {
-  text-align: center; }
+  text-align: right; }
 
 #icon img {
   height: 3em;
@@ -282,8 +283,36 @@ html, body {
   display: block; }
 
 /*Blog*/
-/*main1*/
-/*supporting1*/
+/*mainabc*/
+.main-1 {
+  color: #483B7F; }
+  .main-1 h3 {
+    padding: 1em 0 1em 0; }
+
+.ricky {
+  width: 100%; }
+
+.supporting-1 {
+  color: #483B7F; }
+  .supporting-1 p {
+    padding: 1em 0 1em 0; }
+
+.blog-post {
+  margin-right: 20em;
+  overflow: hidden;
+  padding: 1em 0 1em 0; }
+
+#right-sidebar {
+  position: fixed;
+  text-align: right;
+  margin-top: 2em;
+  height: 30em;
+  width: 10em;
+  float: right;
+  margin-left: 66%; }
+  #right-sidebar ul {
+    list-style: none; }
+
 /*Search Page*/
 /*main4*/
 /*supporting4*/
