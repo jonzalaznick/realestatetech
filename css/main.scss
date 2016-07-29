@@ -21,6 +21,7 @@ $jumbo-height: 50em;
 html, body {
   margin: 0;
   padding: 0;
+  background-color: $text-color;
   }
 
 /* Header */
@@ -81,7 +82,7 @@ html, body {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
   padding-right: 4em; }
 
 #menu .dropdown {
@@ -265,7 +266,7 @@ html, body {
   padding-left: 0em;
   text-align: center;
   display: inline-block;
-  font-size: 1em;
+  font-size: .8em;
   color: $text-color; }
 
 #frank ul li a {
@@ -288,7 +289,7 @@ html, body {
   color: $hover-color; }
 
 #icon {
-  text-align: center; }
+  text-align: right; }
 
 #icon img {
   height: 3em;
@@ -300,7 +301,8 @@ html, body {
   text-align: center;
   color: #ffffff;
   padding-top: .25em;
-  padding-bottom: .5em; }
+  padding-bottom: .5em;
+ }
 
 
 
@@ -347,8 +349,49 @@ html, body {
 
 
 /*Blog*/
-/*main1*/
-/*supporting1*/
+/*mainabc*/
+
+.main-1 {
+	color: $header-color;
+	h3 {
+		padding: 1em 0 1em 0;
+	}
+	
+
+}
+
+
+.ricky {
+	width: 100%;
+}
+
+.supporting-1 {
+	color: $header-color;
+	
+	p {
+		padding: 1em 0 1em 0;
+	}
+
+}
+
+.blog-post {
+	margin-right: 20em;
+	overflow: hidden;
+	padding: 1em 0 1em 0;
+}
+
+#right-sidebar {
+	position: fixed;
+	text-align: right;
+	margin-top: 2em;
+    height: 30em;
+    width: 10em;
+    float: right;
+    margin-left: 66%;
+    ul {
+    	list-style: none;
+    }
+}
 
 
 /*Search Page*/
@@ -356,4 +399,3 @@ html, body {
 /*supporting4*/
 
 /*# sourceMappingURL=main.css.map */
-
