@@ -22,6 +22,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: $text-color;
+  font-family: 'Source Sans Pro', sans-serif;
   }
 
 /* Header */
@@ -29,7 +30,7 @@ html, body {
   background-color: $header-color;
   
   .container {
-  padding: .5em 0 .5em 0;
+  padding: 2em 0 2em 0;
   }
 }
 
@@ -37,22 +38,25 @@ html, body {
 }
 
 #logo h1 {
-  text-align: left;
+  text-align: center;
   color: $text-color;
-  font-size: 4.5em;
-  padding-top: .25em; }
+  font-size: 3.5em;
+  padding-top: 0em; 
+	font-family: 'Orbitron', sans-serif;
+}
 
 #logo a:hover {
   text-decoration: none; }
 
 #menu {
-  padding-top: .25em;
+  padding-top: 1em;
   h2 {
   text-align: center;
   color: $text-color;
   }
 }
 
+/*
 #search {
 
 }
@@ -84,12 +88,13 @@ html, body {
   padding-bottom: 1em;
   margin: 1em 0 0 0;
   padding-right: 4em; }
+*/
 
 #menu .dropdown {
   position: relative;
   list-style: none;
   text-align: center;
-  padding-bottom: 2.5em; }
+  padding-bottom: 0em; }
 
 #menu .dropdown-menu {
   position: absolute;
@@ -350,7 +355,6 @@ html, body {
 
 
 /*Blog*/
-/*mainabc*/
 
 .main-1 {
 	color: $header-color;
@@ -364,7 +368,7 @@ html, body {
 
 .ricky {
 	width: 100%;
-	height: 75vh;
+	height: 40em;
 }
 
 .supporting-1 {
@@ -377,23 +381,45 @@ html, body {
 
 }
 
+
+
 .blog-post {
-	margin-right: 15em;
+	margin-left: 15em;
 	overflow: hidden;
 	padding: 1em 0 1em 0;
+	
+	h3 {
+		text-align: center;
+		font-size: 2em;
+	}
 	
 
 }
 
 .sidebar {
 	position: fixed;
-	text-align: right;
+	text-align: left;
 	margin-top: 3em;
     height: 30em;
     width: 10em;
     float: right;
-    margin-left: 66%;
+    margin-left: 0%;
     z-index:1;
+    
+    #tiptop {
+    	text-decoration: none;
+    	color: $header-color;
+    }
+    
+    #tiptop: hover {
+    	text-decoration: none;
+    	color: $header-color;
+    }
+    
+    #top {
+		color: $header-color;
+		font-size: 1.75em;
+	}
     
     ul {
     	list-style: none;
