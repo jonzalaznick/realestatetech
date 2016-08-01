@@ -194,7 +194,7 @@ html, body {
 /* Latest */
 
 #rafael {
-	width: 100%;
+	width: cover;
   height: $jumbo-height;
   perspective: 1px;
   transform: translateZ(-1px);
@@ -260,11 +260,14 @@ html, body {
   padding-bottom: 2.5em;
   }
 
-#frank ul {
-  float: left;
+
+#frank {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding-top: .75em;
+  padding-bottom: .75em;
+  text-align: center;
+  }
 
 #frank li {
   padding-right: 0em;
@@ -273,12 +276,21 @@ html, body {
   padding-left: 0em;
   text-align: center;
   display: inline-block;
-  font-size: .8em;
-  color: $text-color; }
+  font-size: 1.2em;
+  
+}
 
-#frank ul li a {
-  color: $text-color;
-  background-color: none; }
+.nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline;
+     zoom:1;
+}
+
+.nav-pills {
+    text-align:center;
+}
+
 
 #active {
   background-color: #ffffff;
@@ -296,19 +308,30 @@ html, body {
   color: $hover-color; }
 
 #icon {
-  text-align: right; }
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+#icon ul {
+	list-style: none;
+}
+
+#icon ul li {
+	text-decoration: none;
+	display: inline-block;
+}
 
 #icon img {
-  height: 3em;
-  padding-right: .75em;
-  padding-left: .75em;
+  height: 4em;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
   position: relative; }
 
 .footer h4 {
   text-align: center;
   color: #ffffff;
-  padding-top: .25em;
-  padding-bottom: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
  }
 
 
