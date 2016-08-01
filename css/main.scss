@@ -194,13 +194,13 @@ html, body {
 /* Latest */
 
 #rafael {
-	width: cover;
+	width: 100%;
   height: $jumbo-height;
   perspective: 1px;
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto;
-   @include parallax-background("../img/tech2.jpeg"); 
+   @include parallax-background("../img/retail1.jpeg"); 
 }
 
 .latest .container {
@@ -264,8 +264,7 @@ html, body {
 #frank {
   list-style: none;
   margin: 0;
-  padding-top: .75em;
-  padding-bottom: .75em;
+  padding: 0;
   text-align: center;
   }
 
@@ -276,7 +275,7 @@ html, body {
   padding-left: 0em;
   text-align: center;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: .8em;
   
 }
 
@@ -322,17 +321,20 @@ html, body {
 }
 
 #icon img {
-  height: 4em;
-  padding-right: 1.25em;
-  padding-left: 1.25em;
+  height: 3em;
+  padding-right: 1em;
+  padding-left: 1em;
   position: relative; }
 
 .footer h4 {
   text-align: center;
   color: #ffffff;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .25em;
+  padding-bottom: .5em;
  }
+
+
+
 
 
 
@@ -370,7 +372,7 @@ html, body {
 
 #techy {
 	width: 100%;
-	height: 40em;
+	height: 30em;
 	text-align: center;
 	margin: auto;
 	display: block;
@@ -391,7 +393,7 @@ html, body {
 
 .ricky {
 	width: 100%;
-	height: 40em;
+	height: 30em;
 }
 
 .supporting-1 {
@@ -407,7 +409,7 @@ html, body {
 
 
 .blog-post {
-	margin-left: 15em;
+	margin-left: 12.5em;
 	overflow: hidden;
 	padding: 1em 0 1em 0;
 	
@@ -422,7 +424,7 @@ html, body {
 .sidebar {
 	position: fixed;
 	text-align: left;
-	margin-top: 3em;
+	padding-top: 3em;
     height: 30em;
     width: 10em;
     float: right;
@@ -434,7 +436,7 @@ html, body {
     	color: $header-color;
     }
     
-    #tiptop: hover {
+    #tiptop:hover {
     	text-decoration: none;
     	color: $header-color;
     }
